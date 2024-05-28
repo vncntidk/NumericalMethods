@@ -52,6 +52,12 @@
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -127,6 +133,12 @@
             // 
             guna2Panel2.BackColor = Color.Transparent;
             guna2Panel2.BorderRadius = 15;
+            guna2Panel2.Controls.Add(guna2HtmlLabel17);
+            guna2Panel2.Controls.Add(guna2HtmlLabel18);
+            guna2Panel2.Controls.Add(guna2HtmlLabel16);
+            guna2Panel2.Controls.Add(guna2HtmlLabel14);
+            guna2Panel2.Controls.Add(guna2HtmlLabel15);
+            guna2Panel2.Controls.Add(guna2HtmlLabel12);
             guna2Panel2.Controls.Add(guna2HtmlLabel9);
             guna2Panel2.Controls.Add(guna2HtmlLabel8);
             guna2Panel2.Controls.Add(guna2HtmlLabel7);
@@ -141,12 +153,78 @@
             guna2Panel2.Size = new Size(850, 34);
             guna2Panel2.TabIndex = 24;
             // 
+            // guna2HtmlLabel17
+            // 
+            guna2HtmlLabel17.BackColor = Color.Transparent;
+            guna2HtmlLabel17.Font = new Font("Goudy Old Style", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel17.ForeColor = Color.White;
+            guna2HtmlLabel17.Location = new Point(661, 10);
+            guna2HtmlLabel17.Name = "guna2HtmlLabel17";
+            guna2HtmlLabel17.Size = new Size(27, 21);
+            guna2HtmlLabel17.TabIndex = 34;
+            guna2HtmlLabel17.Text = "new";
+            // 
+            // guna2HtmlLabel18
+            // 
+            guna2HtmlLabel18.BackColor = Color.Transparent;
+            guna2HtmlLabel18.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel18.ForeColor = Color.White;
+            guna2HtmlLabel18.Location = new Point(651, 5);
+            guna2HtmlLabel18.Name = "guna2HtmlLabel18";
+            guna2HtmlLabel18.Size = new Size(10, 23);
+            guna2HtmlLabel18.TabIndex = 33;
+            guna2HtmlLabel18.Text = "x";
+            // 
+            // guna2HtmlLabel16
+            // 
+            guna2HtmlLabel16.BackColor = Color.Transparent;
+            guna2HtmlLabel16.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel16.ForeColor = Color.White;
+            guna2HtmlLabel16.Location = new Point(531, 6);
+            guna2HtmlLabel16.Name = "guna2HtmlLabel16";
+            guna2HtmlLabel16.Size = new Size(34, 23);
+            guna2HtmlLabel16.TabIndex = 32;
+            guna2HtmlLabel16.Text = "f(x1)";
+            // 
+            // guna2HtmlLabel14
+            // 
+            guna2HtmlLabel14.BackColor = Color.Transparent;
+            guna2HtmlLabel14.Font = new Font("Goudy Old Style", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel14.ForeColor = Color.White;
+            guna2HtmlLabel14.Location = new Point(302, 11);
+            guna2HtmlLabel14.Name = "guna2HtmlLabel14";
+            guna2HtmlLabel14.Size = new Size(11, 21);
+            guna2HtmlLabel14.TabIndex = 31;
+            guna2HtmlLabel14.Text = "1";
+            // 
+            // guna2HtmlLabel15
+            // 
+            guna2HtmlLabel15.BackColor = Color.Transparent;
+            guna2HtmlLabel15.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel15.ForeColor = Color.White;
+            guna2HtmlLabel15.Location = new Point(291, 5);
+            guna2HtmlLabel15.Name = "guna2HtmlLabel15";
+            guna2HtmlLabel15.Size = new Size(10, 23);
+            guna2HtmlLabel15.TabIndex = 30;
+            guna2HtmlLabel15.Text = "x";
+            // 
+            // guna2HtmlLabel12
+            // 
+            guna2HtmlLabel12.BackColor = Color.Transparent;
+            guna2HtmlLabel12.Font = new Font("Goudy Old Style", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel12.ForeColor = Color.White;
+            guna2HtmlLabel12.Location = new Point(182, 11);
+            guna2HtmlLabel12.Name = "guna2HtmlLabel12";
+            guna2HtmlLabel12.Size = new Size(11, 21);
+            guna2HtmlLabel12.TabIndex = 29;
+            guna2HtmlLabel12.Text = "0";
+            // 
             // guna2HtmlLabel9
             // 
             guna2HtmlLabel9.BackColor = Color.Transparent;
             guna2HtmlLabel9.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel9.ForeColor = Color.White;
-            guna2HtmlLabel9.Location = new Point(735, 6);
+            guna2HtmlLabel9.Location = new Point(779, 6);
             guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             guna2HtmlLabel9.Size = new Size(20, 23);
             guna2HtmlLabel9.TabIndex = 28;
@@ -157,18 +235,18 @@
             guna2HtmlLabel8.BackColor = Color.Transparent;
             guna2HtmlLabel8.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel8.ForeColor = Color.White;
-            guna2HtmlLabel8.Location = new Point(517, 6);
+            guna2HtmlLabel8.Location = new Point(410, 5);
             guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            guna2HtmlLabel8.Size = new Size(25, 23);
+            guna2HtmlLabel8.Size = new Size(34, 23);
             guna2HtmlLabel8.TabIndex = 27;
-            guna2HtmlLabel8.Text = "f(x)";
+            guna2HtmlLabel8.Text = "f(x0)";
             // 
             // guna2HtmlLabel7
             // 
             guna2HtmlLabel7.BackColor = Color.Transparent;
             guna2HtmlLabel7.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel7.ForeColor = Color.White;
-            guna2HtmlLabel7.Location = new Point(310, 5);
+            guna2HtmlLabel7.Location = new Point(171, 5);
             guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             guna2HtmlLabel7.Size = new Size(10, 23);
             guna2HtmlLabel7.TabIndex = 26;
@@ -179,7 +257,7 @@
             guna2HtmlLabel6.BackColor = Color.Transparent;
             guna2HtmlLabel6.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel6.ForeColor = Color.White;
-            guna2HtmlLabel6.Location = new Point(80, 6);
+            guna2HtmlLabel6.Location = new Point(37, 6);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             guna2HtmlLabel6.Size = new Size(61, 23);
             guna2HtmlLabel6.TabIndex = 25;
@@ -216,7 +294,7 @@
             guna2Panel1.Location = new Point(58, 433);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Panel1.Size = new Size(850, 213);
+            guna2Panel1.Size = new Size(850, 245);
             guna2Panel1.TabIndex = 21;
             // 
             // guna2DataGridView1
@@ -248,7 +326,7 @@
             guna2DataGridView1.Name = "guna2DataGridView1";
             guna2DataGridView1.RowHeadersVisible = false;
             guna2DataGridView1.RowHeadersWidth = 51;
-            guna2DataGridView1.Size = new Size(850, 214);
+            guna2DataGridView1.Size = new Size(850, 245);
             guna2DataGridView1.TabIndex = 0;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -571,5 +649,11 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
     }
 }
