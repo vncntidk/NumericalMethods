@@ -131,6 +131,7 @@
             // 
             // guna2Panel2
             // 
+            guna2Panel2.Anchor = AnchorStyles.None;
             guna2Panel2.BackColor = Color.Transparent;
             guna2Panel2.BorderRadius = 15;
             guna2Panel2.Controls.Add(guna2HtmlLabel17);
@@ -265,6 +266,7 @@
             // 
             // lblFinal
             // 
+            lblFinal.Anchor = AnchorStyles.None;
             lblFinal.BackColor = Color.Transparent;
             lblFinal.Font = new Font("Goudy Old Style", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblFinal.ForeColor = Color.FromArgb(36, 48, 94);
@@ -277,6 +279,7 @@
             // 
             // lblRoot
             // 
+            lblRoot.Anchor = AnchorStyles.None;
             lblRoot.BackColor = Color.Transparent;
             lblRoot.Font = new Font("Goudy Old Style", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblRoot.ForeColor = Color.FromArgb(36, 48, 94);
@@ -288,6 +291,7 @@
             // 
             // guna2Panel1
             // 
+            guna2Panel1.Anchor = AnchorStyles.None;
             guna2Panel1.BorderRadius = 1;
             guna2Panel1.Controls.Add(guna2DataGridView1);
             guna2Panel1.CustomizableEdges = customizableEdges3;
@@ -352,6 +356,7 @@
             // 
             // btnClear
             // 
+            btnClear.Anchor = AnchorStyles.None;
             btnClear.BorderRadius = 15;
             btnClear.CustomizableEdges = customizableEdges5;
             btnClear.DisabledState.BorderColor = Color.DarkGray;
@@ -371,6 +376,7 @@
             // 
             // guna2HtmlLabel2
             // 
+            guna2HtmlLabel2.Anchor = AnchorStyles.None;
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Goudy Old Style", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.FromArgb(36, 48, 94);
@@ -382,6 +388,7 @@
             // 
             // guna2HtmlLabel5
             // 
+            guna2HtmlLabel5.Anchor = AnchorStyles.None;
             guna2HtmlLabel5.BackColor = Color.Transparent;
             guna2HtmlLabel5.Font = new Font("Goudy Old Style", 10.2F);
             guna2HtmlLabel5.ForeColor = Color.FromArgb(36, 48, 94);
@@ -393,6 +400,7 @@
             // 
             // txtIterations
             // 
+            txtIterations.Anchor = AnchorStyles.None;
             txtIterations.BorderColor = Color.Black;
             txtIterations.BorderRadius = 15;
             txtIterations.CustomizableEdges = customizableEdges7;
@@ -418,6 +426,7 @@
             // 
             // guna2HtmlLabel13
             // 
+            guna2HtmlLabel13.Anchor = AnchorStyles.None;
             guna2HtmlLabel13.BackColor = Color.Transparent;
             guna2HtmlLabel13.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel13.ForeColor = Color.FromArgb(36, 48, 94);
@@ -429,6 +438,7 @@
             // 
             // btnCalculate
             // 
+            btnCalculate.Anchor = AnchorStyles.None;
             btnCalculate.BorderRadius = 15;
             btnCalculate.CustomizableEdges = customizableEdges9;
             btnCalculate.DisabledState.BorderColor = Color.DarkGray;
@@ -448,6 +458,7 @@
             // 
             // guna2HtmlLabel10
             // 
+            guna2HtmlLabel10.Anchor = AnchorStyles.None;
             guna2HtmlLabel10.BackColor = Color.Transparent;
             guna2HtmlLabel10.Font = new Font("Goudy Old Style", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel10.ForeColor = Color.FromArgb(36, 48, 94);
@@ -459,6 +470,7 @@
             // 
             // txtError
             // 
+            txtError.Anchor = AnchorStyles.None;
             txtError.BorderColor = Color.Black;
             txtError.BorderRadius = 15;
             txtError.CustomizableEdges = customizableEdges11;
@@ -483,6 +495,7 @@
             // 
             // guna2HtmlLabel11
             // 
+            guna2HtmlLabel11.Anchor = AnchorStyles.None;
             guna2HtmlLabel11.BackColor = Color.Transparent;
             guna2HtmlLabel11.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel11.ForeColor = Color.FromArgb(36, 48, 94);
@@ -494,6 +507,7 @@
             // 
             // txtX1
             // 
+            txtX1.Anchor = AnchorStyles.None;
             txtX1.BorderColor = Color.Black;
             txtX1.BorderRadius = 15;
             txtX1.CustomizableEdges = customizableEdges13;
@@ -519,6 +533,7 @@
             // 
             // guna2HtmlLabel4
             // 
+            guna2HtmlLabel4.Anchor = AnchorStyles.None;
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Goudy Old Style", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel4.ForeColor = Color.FromArgb(36, 48, 94);
@@ -530,6 +545,7 @@
             // 
             // txtX0
             // 
+            txtX0.Anchor = AnchorStyles.None;
             txtX0.BorderColor = Color.Black;
             txtX0.BorderRadius = 15;
             txtX0.CustomizableEdges = customizableEdges15;
@@ -555,6 +571,7 @@
             // 
             // guna2HtmlLabel3
             // 
+            guna2HtmlLabel3.Anchor = AnchorStyles.None;
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Goudy Old Style", 10.2F);
             guna2HtmlLabel3.ForeColor = Color.FromArgb(36, 48, 94);
@@ -566,6 +583,7 @@
             // 
             // txtFunction
             // 
+            txtFunction.Anchor = AnchorStyles.None;
             txtFunction.BorderColor = Color.Black;
             txtFunction.BorderRadius = 15;
             txtFunction.CustomizableEdges = customizableEdges17;
@@ -592,6 +610,7 @@
             // 
             // lblFunction
             // 
+            lblFunction.Anchor = AnchorStyles.None;
             lblFunction.BackColor = Color.Transparent;
             lblFunction.Font = new Font("Goudy Old Style", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblFunction.ForeColor = Color.FromArgb(36, 48, 94);
