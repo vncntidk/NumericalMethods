@@ -98,7 +98,7 @@ using NCalc;
                     double error = Math.Abs(f2);
 
                     //this will add the outputs in dgv
-                    guna2DataGridView1.Rows.Add(iteration + 1, x0.ToString("F4"), x1.ToString("F4"), f0.ToString("F4"), f1.ToString("F4"), x2.ToString("F4"), error.ToString("F2"));
+                    guna2DataGridView1.Rows.Add(iteration + 1, x0.ToString("F4"), x1.ToString("F4"), f0.ToString("F4"), f1.ToString("F4"), x2.ToString("F4"), error.ToString("F4"));
                     iteration++;
 
                     if (error < tolerance)
