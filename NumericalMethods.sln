@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericalMethods", "NumericalMethods\NumericalMethods.csproj", "{D70DCCFD-0FF9-49EB-9425-D66B1920711B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D70DCCFD-0FF9-49EB-9425-D66B1920711B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70DCCFD-0FF9-49EB-9425-D66B1920711B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70DCCFD-0FF9-49EB-9425-D66B1920711B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70DCCFD-0FF9-49EB-9425-D66B1920711B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9689D30-A83C-4E7A-8FDC-91B7D4F87015}
+	EndGlobalSection
+EndGlobal
